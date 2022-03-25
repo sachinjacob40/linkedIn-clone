@@ -1,0 +1,128 @@
+
+
+.mrs{
+    margin-left: -12px;
+}
+
+
+
+
+
+@media (min-width:320px) and (max-width:767px){
+
+  .mrs{
+      margin-left: 9%;
+  }
+    
+  .textcontent{
+    margin-top: 15px;
+    font-size: 12px;
+    margin-left: 8vh;
+}
+
+
+.arrow{
+    float: right;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: 3px;
+}
+
+.hide{
+    display: none;
+}
+    
+    
+}
+
+
+@media (min-width:768px) and (max-width:1023px){
+
+    .textcontent{
+        margin-top: 15px;
+        font-size: 12px;
+        margin-left: 8vh;
+    }
+    
+    
+    
+}
+
+
+@media (min-width:1024px){
+
+    .textcontent{
+        margin-top: 15px;
+        font-size: 12px;
+        margin-left: 5vh;
+    }
+}
+
+@media (min-width:320px) and (max-width:450px){
+    .textcontent{
+        margin-top: 15px;
+        font-size: 12px;
+        margin-left: 10vh;
+    }
+}
+
+   
+
+.textcontent{
+    margin-top: 12px;
+    font-size: 13px;
+}
+
+
+
+.textarea{
+    width:100%;
+    border:0px solid;
+    resize: none;
+    height: 100%;
+    border-bottom: 1px solid lightgray;
+    padding: 20px;
+
+}
+.textarea:focus-visible{
+    outline: none;
+}
+
+.item{
+background-color: white;
+margin:0px
+}
+
+
+.arrow{
+    float: right;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+.avatarsmall{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    float: left;
+    margin:12px;
+
+}
+
+.content{
+    text-align: left;
+    margin-left: 15px;
+    word-break: break-all;
+}
+
+
+
+.limit{
+
+    width:100%;
+    object-fit:cover;
+    height:20rem;
+}
+
+
